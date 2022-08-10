@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2b729cc0.css",
-    "main.js": "/static/js/main.45235c1a.js",
+    "main.js": "/static/js/main.d90e7854.js",
     "static/media/inn+pool.jpg": "/static/media/inn+pool.6832a37de885463abd13.jpg",
     "static/media/landscape.jpg": "/static/media/landscape.49c745ac14e3596e3b98.jpg",
     "static/media/beach.jpg": "/static/media/beach.9d9b01ae388e2b3b1940.jpg",
@@ -34,10 +34,10 @@
     "static/media/arrow-right.svg": "/static/media/arrow-right.5d6d768ca3770af30f05d6fd3518cffe.svg",
     "static/media/arrow-left.svg": "/static/media/arrow-left.3f41dc14d5ea79a642157e6d05e9b24a.svg",
     "main.2b729cc0.css.map": "/static/css/main.2b729cc0.css.map",
-    "main.45235c1a.js.map": "/static/js/main.45235c1a.js.map"
+    "main.d90e7854.js.map": "/static/js/main.d90e7854.js.map"
   },
   "entrypoints": [
     "static/css/main.2b729cc0.css",
-    "static/js/main.45235c1a.js"
+    "static/js/main.d90e7854.js"
   ]
 }
