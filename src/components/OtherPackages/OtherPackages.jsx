@@ -68,7 +68,7 @@ const OtherPackages = (props) => {
                 name={offer.offerName}
                 key={i}
                 flash
-                src={`http://localhost:5000/images/${offer.images[0]}`}
+                src={`https://idontknowfo.herokuapp.com/images/${offer.images[0]}`}
                 adress={offer.adress}
                 guests={offer.guests}
                 rooms={offer.rooms}
