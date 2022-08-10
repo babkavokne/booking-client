@@ -1,0 +1,38 @@
+@import '../../styles/Colors'
+
+.main
+  background-color: $title-background
+  padding: 26px 29px 29px
+  color: #fff
+  border-radius: 8px
+  img
+    border-radius: 0
+  .info
+    display: flex
+    justify-content: space-between
+    margin-bottom: 10px
+    .price
+      display: flex
+      flex-direction: column
+      font-size: 24px
+      font-weight: 800
+      span
+        font-size: 12px
+        font-weight: normal
+    .room
+      .rooms
+        display: flex
+        justify-content: space-between
+        column-gap: 5px
+        &:first-child
+          margin-bottom: 8px
+  .number
+    display: flex
+    justify-content: space-between
+    font-size: 16px
+    margin-bottom: 17px
+    white-space: nowrap
+    div
+      display: flex
+      align-items: center
+      column-gap: 8px

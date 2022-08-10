@@ -1,0 +1,139 @@
+@import '../../styles/Colors'
+
+.wrapper
+  background-color: $title-background
+  display: flex
+  justify-content: center
+  .footer
+    color: #BDBDBD
+    display: flex
+    flex-wrap: wrap
+    padding-top: 108px
+    justify-content: space-between
+    column-gap: 10px
+    .logo
+      display: flex
+      flex-direction: column
+      line-height: 65px
+      font-size: 64px
+      text-transform: uppercase
+      font-family: 'Luckiest Guy', cursive
+      color: #fff
+      span
+        color: $redlike-color
+    .infoblock
+      display: flex
+      flex-direction: column
+      margin-bottom: 90px
+      .social
+        padding-top: 24px
+        display: flex
+        .header
+          margin: 0
+        .icons
+          display: flex
+          column-gap: 10px
+          margin-left: 40px
+          align-items: center
+      .header
+        color: #fff
+        margin-bottom: 20px
+        font-weight: bold
+        font-size: 18px
+        text-transform: uppercase
+      .item
+        color: #bdbdbd
+        line-height: 20px
+      .link:hover
+        color: #fff
+      .form
+        .topline
+          display: flex
+          column-gap: 20px
+        .input
+          width: 100%
+          padding: 18px 23px
+          border-radius: 4px
+          border: none
+        textarea
+          resize: none
+          display: block
+          width: 100%
+          border-radius: 4px
+          padding: 18px 23px
+          margin-top: 15px
+        .bottom
+          display: flex
+          justify-content: space-between
+          margin-top: 22px
+          align-items: center
+          color: #e0e0e0
+          .button
+            width: 160px
+            font-size: 12px
+      &:last-child
+        width: calc(50% - 10px)
+    .contact
+      max-width: 493px
+      width: 50%
+      row-gap: 20px
+      .item
+        display: flex
+        align-items: flex-start
+        word-wrap:
+        img
+          display: bloc
+          margin-right: 15px
+
+@media (max-width: 868px)
+  .wrapper
+    .footer
+      padding-top: 54px
+      .infoblock
+        margin-bottom: 50px
+        &:last-child
+          width: 100%
+      .contact
+        width: 100%
+        .header
+          margin-bottom: 0
+
+@media (max-width: 768px)
+  .wrapper
+    .footer
+      .infoblock
+        &:first-child
+          width: 100%
+          margin-bottom: 20px
+        .logo
+          flex-direction: row
+          column-gap: 20px
+
+@media (max-width: 699px)
+  .wrapper
+    .footer
+      justify-content: space-around
+      .contact
+        max-width: 50%
+
+@media (max-width: 530px)
+  .wrapper
+    .footer
+      flex-direction: column
+      .infoblock
+        margin-bottom: 20px
+        &:first-child
+          width: 0
+          margin-bottom: 20px
+        .logo
+          flex-direction: column
+          column-gap: 0
+        .social
+          display: block
+          padding-top: 10px
+          .icons
+            column-gap: 5px
+            margin-left: 0
+            max-width: 100%
+      .contact
+          max-width: 100%

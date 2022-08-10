@@ -1,0 +1,32 @@
+@import '../../styles/Colors'
+
+.panel
+  display: flex
+  align-items: center
+  justify-content: space-between
+  column-gap: 19px
+  cursor: pointer
+  position: relative
+  .button
+    width: 100px
+  .avatar
+    border-radius: 50%
+    width: 40px
+    height: 40px
+  span
+    font-size: 14px
+  .modal
+    position: absolute
+    bottom: -130px
+    border: $title-background 1px solid
+    right: 0px
+    padding: 7px 25px
+    box-shadow: 5px 5px 5px #000
+    display: none
+    background: #fff
+    &.active
+      display: flex
+      flex-direction: column
+      row-gap: 10px
+    & span:hover
+      color: $redlike-color
