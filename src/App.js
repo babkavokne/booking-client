@@ -38,13 +38,14 @@ function App() {
           <Route path='/calc' element={<Calc />} />
           <Route path='/editProfile' element={<EditProfile />} />
           <Route path='/createOffer' element={<CreateOffer />} />
-          <Route path='/aboutdeveloper' element={<AboutDeveloper />} />
+
           <Route path='*' element={<Navigate to='/' replace />} />
         </Routes>
         :
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/auth' element={<Auth />} />
+          <Route path='/aboutdeveloper' element={<AboutDeveloper />} />
           <Route path='*' element={<Navigate to='/' replace />} />
         </Routes>
       }
